@@ -89,7 +89,9 @@ public class MainActivity extends AppCompatActivity {
             File file = new File(dir, "mytextfile.txt");
             file.delete();
         } catch (Exception e) {
-            e.printStackTrace();
+            //e.printStackTrace();
+            //logfile.write(e.toString());
+            mainView.setText("Cannot find the file");
         }
     }
 }

@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static final String DB_NAME = "starbuzz";
-    private static final int DB_VERSION = 2;
+    private static final int DB_VERSION = 3;
 
     DatabaseHelper(Context context){
         super(context, DB_NAME, null, DB_VERSION);
